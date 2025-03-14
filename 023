@@ -1,0 +1,17 @@
+# 进入项目目录
+cd your-project-folder
+
+# 初始化本地仓库
+git init
+
+# 关联远程仓库（复制仓库地址替换下面URL）
+git remote add origin https://github.com/yourusername/your-repo.git
+
+# 添加所有文件
+git add .
+
+# 提交更改
+git commit -m "Initial commit"
+
+# 推送代码
+git push -u origin main
